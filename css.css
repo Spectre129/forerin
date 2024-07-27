@@ -31,14 +31,12 @@ html, body {
 
 #leftContent {
     padding: auto;
-    background-color: rgb(0, 255, 255);
     margin-bottom: -3%;
 }
 
 #rightContent {
     margin: auto;
     padding: auto;
-    background-color: rgb(0, 255, 255);
 }
 
 #leftContent, #rightContent
@@ -76,4 +74,13 @@ html, body {
 #soldier {
     font-size: 70%;
     color: white;
+}
+
+#remember {
+    color:white;
+    font-size: 45%;
+}
+
+.textBackground {
+    background-color: rgb(0, 255, 255);
 }

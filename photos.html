@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo gallery</title>
+
+    <link rel = "stylesheet" href = "css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src = "scripts.js"></script>
+</head>
+
+<body>
+    <div class = "container-fluid">
+    <div class = "row text-center">
+        <div class = "textBackground">
+            <h1>Photo gallery</h1>
+        </div>
+    </div>
+    </div>
+
+    <div class = "container-fluid">
+        <div class = "row text-center">
+            <div class = "textBackground">
+                <p>Here is a collection of our different dates and just some of my favourite photos <br> Just click the buttons below to open up a page full of our special moments</p>
+            </div>
+        </div>
+    </div>
+
+    <div class = "container-fluid"> <!-- PHOTO ROW -->
+        <div class = "row mt-1">
+            <div class = "col-2">
+                <img src = "photos/edi/ediBanner.jpg" class = "img-fluid">
+            </div>
+            <div class = "col-2">
+                <img src = "photos/waterfall/waterfallBanner.JPG" class = "img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div class = "container-fluid"> <!--   BUTTON ROW -->
+        <div class = "row">
+            <div class = "col-2" >
+                <button type = "button" class = "btn btn-secondary mx-auto d-block" onclick = "openEdi()">Day out in Edinburgh</button>
+            </div>
+            <div class="col-2">
+                <button type = "button" class = "btn btn-secondary mx-auto d-block">Waterfall date</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
