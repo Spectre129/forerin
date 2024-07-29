@@ -27,26 +27,79 @@
                 <p>Here is a collection of our different dates and just some of my favourite photos <br> Just click the buttons below to open up a page full of our special moments</p>
             </div>
         </div>
+        <div class = "row text-center textBackground smallText">
+            <p> Btw click the last picture in Waterfall and Faves cause they are videos</p>
+        </div>
+    </div>
+
+    <div class = "container-fluid">
+        <div class="row">
+            <button type = "button" class = "btn btn-primary mx-auto d-block" id = "homeBtn">Home</button>
+        </div>
     </div>
 
     <div class = "container-fluid"> <!-- PHOTO ROW -->
-        <div class = "row mt-1">
-            <div class = "col-2">
+        <div class = "row">
+            <div class = "col">
                 <img src = "photos/edi/ediBanner.jpg" class = "img-fluid">
             </div>
-            <div class = "col-2">
+            <div class = "col">
                 <img src = "photos/waterfall/waterfallBanner.JPG" class = "img-fluid">
+            </div>
+            <div class="col">
+                <img src = "photos/arbroath/IMG_0068.jpg" class = "img-fluid">
+            </div>
+            <div class="col">
+                <img src = "photos/stonehaven/stonehavenBanner.JPG" class = "img-fluid">
+            </div>
+            <div class="col">
+                <img src = "photos/hazelhead/hazelheadBanner.JPG" class = "img-fluid">
             </div>
         </div>
     </div>
 
     <div class = "container-fluid"> <!--   BUTTON ROW -->
-        <div class = "row">
-            <div class = "col-2" >
+        <div class = "row mt-1">
+            <div class = "col" >
                 <button type = "button" class = "btn btn-secondary mx-auto d-block" onclick = "openEdi()">Day out in Edinburgh</button>
             </div>
-            <div class="col-2">
-                <button type = "button" class = "btn btn-secondary mx-auto d-block">Waterfall date</button>
+            <div class="col">
+                <button type = "button" class = "btn btn-secondary mx-auto d-block" onclick="openWaterfall()">Waterfall date</button>
+            </div>
+            <div class="col">
+                <button type = "button" class = "btn btn-secondary mx-auto d-block" onclick="openArbroath()">Arbroath date</button>
+            </div>
+            <div class="col">
+                <button type = "button" class = "btn btn-secondary mx-auto d-block" onclick="openStonehaven()">Day out in Stonehaven</button>
+            </div>
+            <div class="col">
+                <button type = "button" class = "btn btn-secondary mx-auto d-block" onclick="openHazelhead()">Day out in Hazelhead Park</button>
+            </div>
+        </div>
+    </div>
+
+    <div class = "container text-center mt-2">
+        <div class="row">
+            <div class = "col-4">
+                <video controls class="img-fluid" id = "longOne">
+                    <source src="photos/longOne.mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <div class="col">
+                <img src="photos/favs/lp_image.jpg" class="img-fluid" id = "favBanner">
+            </div>
+
+            <div class = "col-4 mt-5">
+                <img src = "photos/IMG_2820.jpg" class = "img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <div class = "container-fluid mt-2">
+        <div class = "row">
+            <div class = "col">
+                <button type = "button" class = "btn btn-secondary mx-auto d-block" onclick="openFaves()">Some faves</button>
             </div>
         </div>
     </div>
